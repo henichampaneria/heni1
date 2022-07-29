@@ -2,7 +2,7 @@ name: ArmorCode
 
 env:
   product: heni
-  subProduct: push_scan
+  subProduct: Jira
   environment: Production
   token: ${{secrets.ARMORCODE_TOKEN}}
   buildTool: GITHUB_ACTIONS
