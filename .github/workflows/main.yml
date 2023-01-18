@@ -23,5 +23,5 @@ jobs:
     steps:
       - name: ArmorCode Validation
         run: |
-          wget https://qa.armorcode.ai/static/scripts/slastatus.sh
+          wget https://preprod.armorcode.ai/static/scripts/slastatus.sh
           sh slastatus.sh
