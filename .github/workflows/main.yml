@@ -1,7 +1,7 @@
 name: ArmorCode
 
 env:
-  product: Heni
+  product: heni
   subProduct: test_Github
   environment: Production
   token: ${{secrets.ARMORCODE_TOKEN}}
