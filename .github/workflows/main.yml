@@ -1,8 +1,8 @@
 name: ArmorCode
 
 env:
-  product: Heni 2
-  subProduct: Test_4
+  product: heni
+  subProduct: test_Github
   environment: Production
   token: ${{secrets.ARMORCODE_TOKEN}}
   buildTool: GITHUB_ACTIONS
@@ -22,5 +22,5 @@ jobs:
     steps:
       - name: ArmorCode Validation
         run: |
-          wget https://app.armorcode.com/static/scripts/slastatus.sh
+          wget https://qa.armorcode.ai/static/scripts/slastatus.sh
           sh slastatus.sh
