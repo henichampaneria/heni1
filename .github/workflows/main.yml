@@ -1,8 +1,8 @@
 name: ArmorCode
 
 env:
-  product: Testing123
-  subProduct: SP-1
+  product: DVA-Test-v1
+  subProduct: v1
   environment: Production
   token: ${{secrets.ARMORCODE_TOKEN}}
   buildTool: GITHUB_ACTIONS
@@ -22,5 +22,5 @@ jobs:
     steps:
       - name: ArmorCode Validation
         run: |
-          wget https://qa.armorcode.ai/static/scripts/slastatus.sh
+          wget https://eu.armorcode.com/static/scripts/slastatus.sh
           sh slastatus.sh
