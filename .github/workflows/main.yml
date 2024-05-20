@@ -1,7 +1,7 @@
 name: ArmorCode
 
 env:
-  armorcodehost: https://app.armorcode.com
+  armorcodehost: https://qa.armorcode.ai
   product: Heni
   subProduct: test_Github
   environment: Production
@@ -23,5 +23,5 @@ jobs:
     steps:
       - name: ArmorCode Validation
         run: |
-          wget https://app.armorcode.com/static/scripts/slastatus.sh
+          wget https://qa.armorcode.ai/static/scripts/slastatus.sh
           sh slastatus.sh
